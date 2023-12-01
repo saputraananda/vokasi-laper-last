@@ -1,0 +1,190 @@
+:root {
+    --primary: rgb(255, 187, 0);
+    --bg: #010101;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+
+  
+  .nav-link.login-btn-1 {
+    line-height: 30px;
+    background-color: #007bff00;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffbb00;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 6px;
+    margin-left: 90px; /* Sesuaikan dengan jarak yang diinginkan */
+}
+
+  .nav-link.login-btn-1:hover {
+    background-color: #ffbb00; /* Warna latar belakang saat hover */
+    border-color: #ffffff; /* Border color saat hover */
+    color: black !important; /* Warna teks */
+  }
+
+  .nav-link.login-btn-2 {
+    line-height: 30px;
+    background-color: #ffbb00;
+    font-size: larger;
+    color: black;
+    border: 1px solid #ffbb00;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 6px;
+    margin-left: 10px; /* Sesuaikan dengan jarak yang diinginkan */
+}
+
+
+  .nav-link.login-btn-2:hover {
+    background-color: rgba(255, 255, 255, 0); /* Warna latar belakang saat hover */
+    border-color: none; /* Border color saat hover */
+    color: rgb(255, 255, 255) !important; /* Warna teks */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #00340a;
+    padding-top: 6.5rem;
+  }
+    
+  /* navbar */
+  .navbar-brand img {
+    width: auto;
+    max-height: 60px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+  }
+
+  /*.navbar-brand img{
+    width: 30px;
+  }
+  .navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+  } */
+
+  .nav-link:hover{
+    color: #ffbb00 !important;
+  }
+  
+  .nav-item{
+    font-family: 'poppins' sans-serif;
+    font-weight: 600;
+    border-bottom: 0.5px solid #ffbb00;
+  }
+
+  .navbar-nav .nav-item.home {
+    margin-left: 120px; /* Sesuaikan margin sesuai kebutuhan Anda */
+  }
+  
+  .nav-link {
+    font-size: 22px; 
+    }
+    
+        .nav-btns button:hover {
+    color: #ffbb00 !important;
+    border-color: none;
+    }
+  
+    .btn:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+  
+  /*Media Queries Untuk Navbar*/
+  /* media queries */
+  @media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+  }
+  
+  /*Laptop*/
+  @media (max-width: 1366px) {
+  
+  }
+  
+  /*Tablet*/
+  @media (max-width: 768px) {
+    
+  }
+  
+  
+  /*Smartphone*/
+  @media (max-width: 450px) {
+    
+  }
+  
+  
+  /*Navbar Selesai*/
+
+/* CSS for the search box */
+.search-box {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #E6E6E6;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 900px;
+  z-index: 1000;
+}
+
+.search-box input {
+  border: none;
+  background: none;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+  width: 110%;
+  font-size: 16px;
+  color: black;
+}
+
+.search-box button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*Footer */
+footer {
+  margin-top: -48px; /* Adjust this margin to create space as needed */
+}
+
+.daftar {
+  padding-left: 100px; /* Ganti angka 20 dengan jarak yang sesuai sesuai kebutuhan Anda */
+}
+
+.kunjungi {
+  padding-left: 100px; /* Ganti angka 20 dengan jarak yang sesuai sesuai kebutuhan Anda */
+}
+
+.media {
+  padding-left : 120px
+}
+
+
+
+  
+
+  
